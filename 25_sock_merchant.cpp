@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+//Frequency Count Method
+
+
 using namespace std;
 int main()
 {
