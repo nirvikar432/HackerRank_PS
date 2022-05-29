@@ -13,11 +13,13 @@ int main()
             {
             ht*=2;
             }
-            else
+            else if(j%2==0)
             {
             ht+=1;
             }
         }
         cout<<ht<<endl;
+        
     }
+    
 }
