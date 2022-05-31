@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int n,i,j,m,d,flag=0,k=1;
+    int n,i,j,m,d,flag=0;
     cin>>n;
     int arr[n];
     for(i=1;i<=n;i++)
@@ -19,7 +19,6 @@ int main()
         }
         if(sum==d)
         flag++;
-        //k++;
     }
     cout<<flag;
 }
